@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RozzyVibes</title>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #8e44ad, #3498db);
+      color: white;
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      overflow: hidden;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-top: 20%;
+      text-shadow: 2px 2px 10px #000;
+      animation: glow 2s infinite alternate;
+    }
+    p {
+      font-size: 1.5rem;
+      text-shadow: 1px 1px 5px #000;
+    }
+    @keyframes glow {
+      from {
+        color: #ff7675;
+      }
+      to {
+        color: #fdcb6e;
+      }
+    }
+    .btn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #6c5ce7;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+      transition: 0.3s ease;
+    }
+    .btn:hover {
+      background: #00cec9;
+      box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.7);
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to RozzyVibes!</h1>
+  <p>Your world, your vibes!</p>
+  <a href="#" class="btn">Explore Now</a>
+</body>
+</html>
